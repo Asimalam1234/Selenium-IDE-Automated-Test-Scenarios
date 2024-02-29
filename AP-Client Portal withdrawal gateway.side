@@ -1,0 +1,262 @@
+{
+  "id": "d462eb21-3339-4c09-a7b0-5b695bafd916",
+  "version": "2.0",
+  "name": "AP-Client Portal",
+  "url": "https://customer-non-prod.cloudwerkz.com.au",
+  "tests": [{
+    "id": "7ca95f7f-40dd-4e94-a452-4c353a77557a",
+    "name": "Screen Adjustment for AUD Currency",
+    "commands": [{
+      "id": "f5b554d2-8bf3-4475-bf0f-38002d6593ef",
+      "comment": "",
+      "command": "open",
+      "target": "/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2b2f6f0d-989a-4dc1-ac67-0b8cf47838fe",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x720",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1fb1d1f0-2c60-4661-ab20-324186cc9faa",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8901e05b-ceae-49d7-87a4-a56cb34304dd",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["id=apr-input-HdU8S2QkJQqEPHHJx_xrn", "id"],
+        ["name=email", "name"],
+        ["css=#apr-input-HdU8S2QkJQqEPHHJx_xrn", "css:finder"],
+        ["xpath=//input[@id='apr-input-HdU8S2QkJQqEPHHJx_xrn']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/main/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Asim.live788@mailinator.com"
+    }, {
+      "id": "25eadc52-a70f-4ec3-9847-1c7fdaf00b5b",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1b53cdad-3744-4e4e-b9d4-3d4985844b75",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["id=apr-input-i3UEEL3enbyvBOuLE8FDN", "id"],
+        ["name=password", "name"],
+        ["css=#apr-input-i3UEEL3enbyvBOuLE8FDN", "css:finder"],
+        ["xpath=//input[@id='apr-input-i3UEEL3enbyvBOuLE8FDN']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/main/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Kin@1234"
+    }, {
+      "id": "9ac8745b-be5d-4b43-96a3-f67c01dede0f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.shadow-primary\\/50",
+      "targets": [
+        ["css=.shadow-primary\\/50", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/main/div[2]/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "819cdce5-4972-4c8a-9149-122097b4cbb8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.min-w-\\[calc\\(100\\%-0\\.5rem\\)\\]:nth-child(1) .relative > .relative:nth-child(1)",
+      "targets": [
+        ["css=.min-w-\\[calc\\(100\\%-0\\.5rem\\)\\]:nth-child(1) .relative > .relative:nth-child(1)", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/main/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Live')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e168b3bc-3467-4aea-b33c-4ea8378a56d7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.w-4 > path:nth-child(2)",
+      "targets": [
+        ["css=.w-4 > path:nth-child(2)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "574f5f66-ce62-4d3f-8762-4f2ec32d50fd",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='root']/div/div/aside/div/div[3]/div/label",
+      "targets": [
+        ["css=.relative:nth-child(4) .flex-1", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/aside/div/div[3]/div/label", "xpath:idRelative"],
+        ["xpath=//div[3]/div/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "baadffeb-cbc3-4cbd-9c9a-7ada7f760269",
+      "comment": "",
+      "command": "click",
+      "target": "name=currencyLabel",
+      "targets": [
+        ["id=apr-input-2dJmHfutGh8CCcE2DZEZM", "id"],
+        ["name=currencyLabel", "name"],
+        ["css=#apr-input-2dJmHfutGh8CCcE2DZEZM", "css:finder"],
+        ["xpath=//input[@id='apr-input-2dJmHfutGh8CCcE2DZEZM']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/aside/div/div[3]/div[2]/form/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a935fa4-ee74-4399-9070-c530af5b77ba",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ml-2 > .border-transparent",
+      "targets": [
+        ["css=.ml-2 > .border-transparent", "css:finder"],
+        ["xpath=(//button[@type='button'])[16]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/aside/div/div[3]/div[2]/form/div/div/button[2]", "xpath:idRelative"],
+        ["xpath=//form/div/div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f7c0512-637e-4b48-abc0-6a55dd20c3d9",
+      "comment": "",
+      "command": "click",
+      "target": "name=currencyLabel",
+      "targets": [
+        ["id=apr-input-YKH4k9IeUfiCcexgFLB-x", "id"],
+        ["name=currencyLabel", "name"],
+        ["css=#apr-input-YKH4k9IeUfiCcexgFLB-x", "css:finder"],
+        ["xpath=//input[@id='apr-input-YKH4k9IeUfiCcexgFLB-x']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/aside/div/div[3]/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "62f85fa4-f35f-49a8-93f9-5b0294d90ba3",
+      "comment": "",
+      "command": "click",
+      "target": "name=currencyLabel",
+      "targets": [
+        ["id=apr-input-YKH4k9IeUfiCcexgFLB-x", "id"],
+        ["name=currencyLabel", "name"],
+        ["css=#apr-input-YKH4k9IeUfiCcexgFLB-x", "css:finder"],
+        ["xpath=//input[@id='apr-input-YKH4k9IeUfiCcexgFLB-x']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/aside/div/div[3]/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "42a841e2-ebf5-4eb5-96ea-7b1b2fa5564d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.relative:nth-child(4)",
+      "targets": [
+        ["css=.relative:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/aside/div/div[3]", "xpath:idRelative"],
+        ["xpath=//aside/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "63caf1d7-6839-478a-b9a6-0dbb2ba714bc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rotate-45 > line:nth-child(2)",
+      "targets": [
+        ["css=.rotate-45 > line:nth-child(2)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a348c18-7874-41e6-938b-10af2471276b",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='root']/div/div/aside/div/div[4]/div/label",
+      "targets": [
+        ["css=.relative:nth-child(5) .flex-1", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/aside/div/div[4]/div/label", "xpath:idRelative"],
+        ["xpath=//div[4]/div/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "480bc96f-732f-4cc9-95fb-786f74df728c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.p-1:nth-child(1)",
+      "targets": [
+        ["css=.p-1:nth-child(1)", "css:finder"],
+        ["xpath=(//button[@type='button'])[18]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/aside/div/div[4]/div[2]/form/div[2]/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0cd8e8cb-3c5a-4246-b589-9fc986aaac97",
+      "comment": "",
+      "command": "click",
+      "target": "css=.p-1:nth-child(1)",
+      "targets": [
+        ["css=.p-1:nth-child(1)", "css:finder"],
+        ["xpath=(//button[@type='button'])[18]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/aside/div/div[4]/div[2]/form/div[2]/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d63ab6f-bd54-4fb8-9ccd-c7e6ea7299e8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ml-2 > .border-transparent",
+      "targets": [
+        ["css=.ml-2 > .border-transparent", "css:finder"],
+        ["xpath=(//button[@type='button'])[17]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/aside/div/div[4]/div[2]/form/div/div/button[2]", "xpath:idRelative"],
+        ["xpath=//form/div/div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6b38a17-6833-4a80-8acf-466e132a6a6d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.h-4 > polyline",
+      "targets": [
+        ["css=.h-4 > polyline", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9978d85-7bf9-40b5-b7da-5c738dc6eb2f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.-rotate-180",
+      "targets": [
+        ["css=.-rotate-180", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "9e06051a-af9d-4ae4-9905-68e4cad76a8d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7ca95f7f-40dd-4e94-a452-4c353a77557a"]
+  }],
+  "urls": ["https://customer-non-prod.cloudwerkz.com.au/"],
+  "plugins": []
+}
