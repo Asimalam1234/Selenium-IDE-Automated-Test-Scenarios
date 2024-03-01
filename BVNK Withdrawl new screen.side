@@ -1,0 +1,257 @@
+{
+  "id": "ebbef1b3-885d-41ca-8271-83db3bd6a6e6",
+  "version": "2.0",
+  "name": "New Script",
+  "url": "https://customer-non-prod.cloudwerkz.com.au",
+  "tests": [{
+    "id": "3102b228-5716-4c24-b2a7-7e6a7fb4b8bd",
+    "name": "BVNK Withdrawal Method1",
+    "commands": [{
+      "id": "534db24c-b528-4bf7-a227-8668dd2f5b69",
+      "comment": "",
+      "command": "pause",
+      "target": "name=email",
+      "targets": [],
+      "value": "3000"
+    }, {
+      "id": "dff4b770-7202-4fa2-814f-125e1c66547f",
+      "comment": "",
+      "command": "open",
+      "target": "/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1bfa9bfb-a6d4-473e-abe2-d79dcb2a119d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x720",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6d65db0e-01ce-4c0e-947c-bef32e824007",
+      "comment": "",
+      "command": "pause",
+      "target": "name=email",
+      "targets": [],
+      "value": "3000"
+    }, {
+      "id": "fb419f9d-d4c0-4f38-9b5b-e55dad01047b",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='root']/div/div/main/div[2]/form/div/div/input",
+      "targets": [
+        ["id=apr-input-6tyPR3fy-s081fEOYC8jt", "id"],
+        ["name=email", "name"],
+        ["css=#apr-input-6tyPR3fy-s081fEOYC8jt", "css:finder"],
+        ["xpath=//input[@id='apr-input-6tyPR3fy-s081fEOYC8jt']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/main/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d90b80da-4a02-4023-a246-7610c87f691b",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["id=apr-input-6tyPR3fy-s081fEOYC8jt", "id"],
+        ["name=email", "name"],
+        ["css=#apr-input-6tyPR3fy-s081fEOYC8jt", "css:finder"],
+        ["xpath=//input[@id='apr-input-6tyPR3fy-s081fEOYC8jt']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/main/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Asim.live779@mailinator.com"
+    }, {
+      "id": "b9d3ceaa-f188-40f1-b56d-190a8d7aeeda",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["id=apr-input-3L5j1GCqib6xC1CNLgaMa", "id"],
+        ["name=password", "name"],
+        ["css=#apr-input-3L5j1GCqib6xC1CNLgaMa", "css:finder"],
+        ["xpath=//input[@id='apr-input-3L5j1GCqib6xC1CNLgaMa']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/main/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5afca19c-3d2a-4929-b3c6-470e59d91ad4",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["id=apr-input-3L5j1GCqib6xC1CNLgaMa", "id"],
+        ["name=password", "name"],
+        ["css=#apr-input-3L5j1GCqib6xC1CNLgaMa", "css:finder"],
+        ["xpath=//input[@id='apr-input-3L5j1GCqib6xC1CNLgaMa']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/main/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Kin@1234"
+    }, {
+      "id": "590afdf6-78a0-45d9-ae80-e6373cb3302f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.shadow-primary\\/50",
+      "targets": [
+        ["css=.shadow-primary\\/50", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/main/div[2]/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ba64931-6d5b-4ea9-aeb8-8861cb5e159f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Withdraw",
+      "targets": [
+        ["linkText=Withdraw", "linkText"],
+        ["css=.border-b > .text-themeColor:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/nav/ul/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/withdraw')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Withdraw')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c385f587-2482-46b4-8f42-86421a9c4167",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.text-themeColor:nth-child(3) > .flex-1",
+      "targets": [
+        ["css=.text-themeColor:nth-child(3) > .flex-1", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/nav/ul/a[3]/span[2]", "xpath:idRelative"],
+        ["xpath=//a[3]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Deposit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "55883b5a-e6b1-4107-b9ee-82335fdce3a4",
+      "comment": "",
+      "command": "pause",
+      "target": "name=withdrawFromLabel",
+      "targets": [],
+      "value": "3000"
+    }, {
+      "id": "3e882bd0-8e38-49f7-80cc-099e758fb63b",
+      "comment": "",
+      "command": "click",
+      "target": "name=withdrawFromLabel",
+      "targets": [
+        ["id=apr-input-hGXuzYuDJv-0ehcS3l20k", "id"],
+        ["name=withdrawFromLabel", "name"],
+        ["css=#apr-input-hGXuzYuDJv-0ehcS3l20k", "css:finder"],
+        ["xpath=//input[@id='apr-input-hGXuzYuDJv-0ehcS3l20k']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/main/form/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0126549d-fa75-47c4-a682-ea62c03e6940",
+      "comment": "",
+      "command": "click",
+      "target": "css=.px-4",
+      "targets": [
+        ["css=.px-4", "css:finder"],
+        ["xpath=//li", "xpath:position"],
+        ["xpath=//li[contains(.,'60000440 USD $1.00 (MT4)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "36fce213-343e-4fd4-b5e5-1e3f6f0edbda",
+      "comment": "",
+      "command": "click",
+      "target": "name=sendToLabel",
+      "targets": [
+        ["id=apr-input-6VXijSgrZWEEeFC9qFNll", "id"],
+        ["name=sendToLabel", "name"],
+        ["css=#apr-input-6VXijSgrZWEEeFC9qFNll", "css:finder"],
+        ["xpath=//input[@id='apr-input-6VXijSgrZWEEeFC9qFNll']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/main/form/div/div[2]/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1f76a3c-5820-4b4d-9d25-73de55669ce5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.py-2:nth-child(7)",
+      "targets": [
+        ["css=.py-2:nth-child(7)", "css:finder"],
+        ["xpath=//li[7]", "xpath:position"],
+        ["xpath=//li[contains(.,'bvnk')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f7f8c9a-0644-4894-bd14-0d1226ac75f1",
+      "comment": "",
+      "command": "click",
+      "target": "name=wallet",
+      "targets": [
+        ["id=apr-input-8kQ8EOB7ww18JaQ7PMth4", "id"],
+        ["name=wallet", "name"],
+        ["css=#apr-input-8kQ8EOB7ww18JaQ7PMth4", "css:finder"],
+        ["xpath=//input[@id='apr-input-8kQ8EOB7ww18JaQ7PMth4']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/main/form/div/div[2]/div[3]/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "32c9eea5-7cd1-40f3-b154-c1647a9c9eec",
+      "comment": "",
+      "command": "type",
+      "target": "name=wallet",
+      "targets": [
+        ["id=apr-input-8kQ8EOB7ww18JaQ7PMth4", "id"],
+        ["name=wallet", "name"],
+        ["css=#apr-input-8kQ8EOB7ww18JaQ7PMth4", "css:finder"],
+        ["xpath=//input[@id='apr-input-8kQ8EOB7ww18JaQ7PMth4']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/main/form/div/div[2]/div[3]/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "0xFb338b746757e120C8F2837c2187D87950e7a5aa"
+    }, {
+      "id": "c64db335-a312-4d16-bb5b-597109a19a05",
+      "comment": "",
+      "command": "click",
+      "target": "name=amount",
+      "targets": [
+        ["id=apr-input-2-mSHYK5C6rIjn5_jxxjY", "id"],
+        ["name=amount", "name"],
+        ["css=#apr-input-2-mSHYK5C6rIjn5_jxxjY", "css:finder"],
+        ["xpath=//input[@id='apr-input-2-mSHYK5C6rIjn5_jxxjY']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/main/form/div/div[2]/div[3]/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc337ec4-5cdc-492c-ae64-db860bea1ff9",
+      "comment": "",
+      "command": "type",
+      "target": "name=amount",
+      "targets": [
+        ["id=apr-input-2-mSHYK5C6rIjn5_jxxjY", "id"],
+        ["name=amount", "name"],
+        ["css=#apr-input-2-mSHYK5C6rIjn5_jxxjY", "css:finder"],
+        ["xpath=//input[@id='apr-input-2-mSHYK5C6rIjn5_jxxjY']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/main/form/div/div[2]/div[3]/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": "1"
+    }]
+  }],
+  "suites": [{
+    "id": "528da923-1611-4b33-9eae-2dbfd8eb67ec",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3102b228-5716-4c24-b2a7-7e6a7fb4b8bd"]
+  }],
+  "urls": ["https://customer-non-prod.cloudwerkz.com.au/"],
+  "plugins": []
+}
